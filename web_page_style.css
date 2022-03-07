@@ -4,4 +4,37 @@ body {
 
 header {
     background-color: dodgerblue;
+    color: white;
+    padding: 2%;
+}
+header > h1 {
+    margin: 0%;
+    padding: 16px;
+}
+
+header > aside > a {
+    color: white;
+}
+
+main {
+    margin: 5%;
+}
+
+main > article {
+    text-align: center;
+}
+.comments {
+    text-align: center;
+}
+
+
+.breaking-news > ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px;
 }
