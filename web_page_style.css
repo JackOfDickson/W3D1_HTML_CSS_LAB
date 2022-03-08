@@ -38,3 +38,24 @@ footer {
     color: white;
     padding: 4px;
 }
+
+.top-elements {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.login {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.categories {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.breaking-news {
+    grid-column: 2;
+    grid-row: 1 ;
+}
